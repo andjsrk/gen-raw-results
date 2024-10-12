@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"noEmitOnError": true,
+		"strict": true,
+		"target": "ESNext"
+	},
+	"include": ["**/*"]
+}

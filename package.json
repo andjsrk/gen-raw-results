@@ -1,0 +1,13 @@
+{
+	"name": "gen-raw-results",
+	"version": "1.0.1",
+	"type": "module",
+	"exports":"./index.js",
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	}
+}
